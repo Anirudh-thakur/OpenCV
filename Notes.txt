@@ -1,0 +1,36 @@
+https://www.youtube.com/watch?v=WQeoO7MI0Bs&feature=youtu.be
+
+Summary :-
+1. Read Images and Videos 
+2. Basic functions
+3. Resize and Crop 
+4. Shapes and Text 
+5. Wrap Prespective 
+6. Joining images 
+7. Color Detection 
+8. Contour/Shape Detection
+9. Face Detections 
+
+Projects :-
+1. Virtual paint 
+2. Paper scanner and Number plate detector
+
+--------------------------------------------------------------------
+VGA : 640 x 480
+HD : 1280 x 720
+FHD : 1920 x 1080
+4K : 3840 x 2160
+
+Binary image : only 0 and 1
+Grey Scale : 8 byte value that is 256 different shades of grey 
+Coloured image : 3 Grey scale image or red green and blue are super imposed
+
+--------------------------------------------------------------------------------------
+Use imread() to read image and imshow() to show it
+use VideoCapture("/path") to capture view and VideoCapture(0) to get webcam input 
+Display video as a sequence of images 
+
+
+To capture from phone download IP Webcam and use 
+urllib.request , cv2 , numpy np,time to fetch video from url and display them
+*make sure to append shot.jpg with your code in order to get images
